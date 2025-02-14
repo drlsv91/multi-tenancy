@@ -8,8 +8,8 @@ import {
   MicroserviceHealthIndicator,
   TypeOrmHealthIndicator,
 } from '@nestjs/terminus';
-import { RedisConfig } from 'src/config/redis';
-import { getJetstreamConfig } from 'src/modules/jetstream';
+import { RedisConfig } from '../config/redis';
+import { getJetstreamConfig } from '../modules/jetstream';
 
 @Controller('health')
 @ApiTags('Health')
